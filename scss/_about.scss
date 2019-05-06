@@ -1,7 +1,15 @@
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
+  background: linear-gradient(to bottom, $black 0%,#{fade-out($dark-green, .1)} 75%,#{fade-out($dark-green, .2)} 100%);
   p {
     margin-bottom: 5rem;
   }
+}
+
+.my-font {
+  font-size: 1.3rem;
+}
+
+.my-bold {
+  color: $gold;
 }
