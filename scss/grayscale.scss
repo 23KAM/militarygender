@@ -4,7 +4,7 @@
 @import 'masthead.scss';
 @import 'buttons.scss';
 @import 'about.scss';
-@import 'projects.scss';
+@import 'authors.scss';
 @import 'signup.scss';
 @import 'contact.scss';
 
@@ -22,8 +22,29 @@ a {
   }
 }
 
+.btn-primary:hover {
+  background-color: #2a4c58;
+}
+
+.img-greyscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.event-ul {
+  list-style-type: none;
+}
+
+.btn-primary {
+  background-color: #b5ba5c;
+}
+
 .bg-black {
   background-color: $black !important;
+}
+
+.bg-green {
+  background-color: #1f3741 !important;
 }
 
 .bg-primary {

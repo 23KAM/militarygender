@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #45c2cc;
+  border: 1px solid #45c2cc;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -74,15 +74,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #45c2cc;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #2a929a;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #45c2cc;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #45c2cc;
   }
 }
 
@@ -105,7 +105,7 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -134,7 +134,7 @@
   }
   .masthead h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -150,30 +150,38 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #45c2cc;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #30a5ae;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #30a5ae;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #2a929a !important;
 }
 
 .about-section {
   padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(42, 76, 88, 0.9)), to(rgba(42, 76, 88, 0.8)));
+  background: linear-gradient(to bottom, #161616 0%, rgba(42, 76, 88, 0.9) 75%, rgba(42, 76, 88, 0.8) 100%);
 }
 
 .about-section p {
   margin-bottom: 5rem;
+}
+
+.my-font {
+  font-size: 1.3rem;
+}
+
+.my-bold {
+  color: #b5ba5c;
 }
 
 .projects-section {
@@ -187,7 +195,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #45c2cc;
   }
 }
 
@@ -201,7 +209,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #45c2cc;
     border-width: .25rem;
     width: 30%;
   }
@@ -231,11 +239,18 @@
 
 .contact-section {
   padding: 5rem 0 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #45c2cc;
+  background-color: #ffffffeb;
 }
 
 .contact-section .card h4 {
@@ -246,7 +261,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #45c2cc;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -279,24 +294,45 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #45c2cc;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #257f86;
+}
+
+.btn-primary:hover {
+  background-color: #2a4c58;
+}
+
+.img-greyscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.event-ul {
+  list-style-type: none;
+}
+
+.btn-primary {
+  background-color: #b5ba5c;
 }
 
 .bg-black {
   background-color: #161616 !important;
 }
 
+.bg-green {
+  background-color: #1f3741 !important;
+}
+
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #45c2cc !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #45c2cc !important;
 }
 
 footer {
